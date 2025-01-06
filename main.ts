@@ -1,4 +1,4 @@
-input.onButtonPressed(Button.A, function () {
+input.onButtonPressed(Button.A, function on_button_pressed_a() {
     music.setTempo(20)
     music.play(music.tonePlayable(370, music.beat(BeatFraction.Eighth)), music.PlaybackMode.UntilDone)
     music.play(music.tonePlayable(370, music.beat(BeatFraction.Quarter)), music.PlaybackMode.UntilDone)
